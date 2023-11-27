@@ -32,4 +32,8 @@ public class Ordenador{
     public void cambiarPlacaBase(PlacaBase nuevaPlacaBase){
         placaBase = nuevaPlacaBase;
     }
+
+     public void imprimirDetalles(){
+        System.out.println("Marca: "+ marca + ", Año de producción: " + anoProduccion + ", Placa Base: " + placaBase);
+    }
 }
