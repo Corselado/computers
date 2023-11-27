@@ -8,4 +8,16 @@ public class Ordenador{
         anoProduccion = elAnoProduccion;
         placaBase = laPlacaBase;
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public int getAnoProduccion() {
+        return anoProduccion;
+    }
+
+    public PlacaBase getPlacaBase() {
+        return placaBase;
+    }
 }
