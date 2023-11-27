@@ -20,4 +20,16 @@ public class Ordenador{
     public PlacaBase getPlacaBase() {
         return placaBase;
     }
+    
+    public void cambiarMarca(String nuevaMarca){
+        marca = nuevaMarca;
+    }
+    
+    public void cambiarAnoProduccion(int nuevoAnoProduccion){
+        anoProduccion = nuevoAnoProduccion;
+    }
+    
+    public void cambiarPlacaBase(PlacaBase nuevaPlacaBase){
+        placaBase = nuevaPlacaBase;
+    }
 }
