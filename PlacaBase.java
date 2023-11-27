@@ -22,4 +22,8 @@ public class PlacaBase {
     public void setNumeroSerie(int nNumeroSerie) {
         numeroSerie = nNumeroSerie;
     }
+    
+    public void imprimirDetalles(){
+        System.out.println("Modelo: "+ modelo + ", Numero de Serie: " + numeroSerie);
+    }
 }
