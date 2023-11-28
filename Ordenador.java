@@ -34,6 +34,7 @@ public class Ordenador{
     }
 
      public void imprimirDetalles(){
-        System.out.println("Marca: "+ marca + ", Ano de produccion: " + anoProduccion + ", Placa Base: " + placaBase.getModelo());
+        System.out.println("Marca: "+ marca + ", Ano de produccion: " + anoProduccion + 
+        ", Placa Base Modelo: " + placaBase.getModelo() + ", Placa Base NS: " + placaBase.getNumeroSerie() );
     }
 }
